@@ -1,0 +1,319 @@
+
+@media only screen and (max-width: 1200px){
+
+	/*================Css Y 030717 Page Service================*/
+	.item_detail{
+		padding: 80px 30px 72px 0px;
+	}
+	.mice_trip .item_detail{
+		padding: 80px 0px 75px 30px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	header{
+		padding: 15px 0px;
+	}
+	.menu_sp{
+		display: block;
+	}
+	.menu_header{
+		display: none;
+	}
+	.bg_hidden{
+		padding-bottom: 80px;
+	}
+	.logo img{
+		padding-top: 0px;
+	}
+	.logo_menu{
+		justify-content: space-between;
+		position: relative;
+	}
+	.open_menu span{
+		background: #fff;
+	    border-radius: 3px;
+	    width: 40px;
+	    height: 6px;
+	    display: block;
+	    margin: 5px auto;
+	}
+	.nav_menu_sp{
+		position: absolute;
+		width: 100%;
+		top:50px;
+		left: 0px;
+		background: #f0483d;
+		z-index: 9999;
+	}
+	.nav_menu_sp ul li a{
+		display: block;
+    	padding: 10px 15px 10px 30px;
+    	border-bottom: 1px solid #ff786f;
+    	position: relative;
+    	color: #fff;
+	}
+	.nav_menu_sp ul li a:before{
+		content:"\f105";
+		font-family: "FontAwesome";
+		position: absolute;
+		left: 10px;
+	}
+	.title_vietnam{
+		padding: 0px 15px;
+	}
+	.content_services{
+		padding: 100px 15px;
+	}
+	.footer{
+		display: initial;
+	}
+	.post-sharrre a{
+		margin-bottom: 10px;
+	}
+
+
+
+/*================Css Y 030717 Page Service================*/
+	.pick_detail_text{
+		display: block;
+	}
+	.item_detail{
+		padding: 80px 15px;
+		width: 100%;
+	}
+	.item_images{
+		position: relative;
+		padding-top: 55%;
+	}
+	.item_images img{
+		width: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	.option_flex{
+		display: none;
+	}
+	.mice_trip .item_detail{
+		padding: 80px 15px;
+	}
+	.item_detail .button_service, .button_consultation .button_service{
+		margin: auto;
+		display: table;
+		padding: 25px 80px;
+	}
+	.bg_service_travel, .bg_corporate_group, .bg_footer_service{
+		background-position: center;
+		background-size: cover;
+	}
+}
+ 
+@media only screen and (max-width: 960px) {
+	#contact .article_page_content .article_page_content_box .contact_step #contact_step_1,
+	#contact .article_page_content .article_page_content_box .contact_step #contact_step_2,
+	#contact .article_page_content .article_page_content_box .contact_step #contact_step_3 {
+		width: 90%;
+	}
+	#contact .article_page_content .article_page_content_box #content_form #contact_form .contact_form_row .contact_form_left,
+	#contact .article_page_content .article_page_content_box #content_form #contact_confirm .confirm_row .confirm_left {
+		width: 100%;
+		float: left;
+	}
+	#contact .article_page_content .article_page_content_box #content_form #contact_form .contact_form_row .contact_form_right,
+	#contact .article_page_content .article_page_content_box #content_form #contact_confirm .confirm_row .confirm_right {
+		width: 100%;
+		height: 100%;
+		float: right;
+		margin-top: 10px;
+	}
+	#contact .article_page_content .article_page_content_box #content_form #contact_confirm .confirm_row .confirm_right {
+		padding: 0;
+	}
+	#contact .article_page_content .article_page_content_box #content_form #contact_complete .content_complete {
+		padding: 0 20px;
+	}
+	#contact .article_page_content .article_page_content_box #content_form #checkbox-agree {
+		margin: 0 20px 72px 20px;
+	}
+	#sitemap .content ul {
+    		-webkit-column-count: 2;
+       		-moz-column-count: 2;
+        	column-count: 2; /*3 in those rules is just placeholder -- can be anything*/
+	}
+	#sitemap .content ul li,
+	#sitemap .content li.page_item.page-item-61,
+	#sitemap .content li.page_item.page-item-54,
+	#sitemap .content li.page_item.page-item-38,
+	#sitemap .content li.page_item.page-item-72 {
+		margin-bottom: 30px;
+		margin-left: 30%;
+	}
+}
+@media only screen and (max-width: 800px) {
+ 	#sitemap .content ul li,
+	#sitemap .content li.page_item.page-item-61,
+	#sitemap .content li.page_item.page-item-54,
+	#sitemap .content li.page_item.page-item-38,
+	#sitemap .content li.page_item.page-item-72 {
+		margin-left: 20%;
+	}
+}
+@media only screen and (max-width: 768px){
+	.title_vietnam h3 img, .title_vietnam h1 img, .bg_footer_service .title_news_list h3 img{
+		width: 100%;
+	}
+	.post_items h3, #page_news .post_items h3{
+		padding-left: 10px;
+	}
+	.post_items:after{
+		right: 0px;
+	}
+	.title_news:before, .title_news:after{
+		width: calc(100% - 70%);
+	}
+	#single_post{
+		padding: 30px 15px;
+	}
+	.bg_news_list, .bg_privacy{
+		background-size: cover;
+		background-position: center;
+	}
+	.see_the_world{
+		padding: 100px 0px;
+		margin-bottom: 0px;
+	}
+	.bg_view_vietnam{
+		padding-top: 66%;
+		background-position: center;
+		margin-bottom: 100px;
+	}
+	.excpect_mission{
+		margin-bottom: 0px;
+	}
+	.page_aboutus .map_vietnam{
+		background-position: -400px -90px;
+	}
+
+
+/*================Css Y 030717 Page Service================*/
+	.travel_holine_part{
+		display: block;
+	}
+	.item_travel_holine{
+		width: 70%;
+		margin: auto;
+	}
+	.title_item_travel{
+		display: table;
+    	margin: 0px auto 50px;
+	}
+	.button_service{
+		display: table;
+		margin: auto;
+	}
+}
+
+/* ========================================= */
+@media only screen and (max-width: 663px) {
+ 	
+}
+@media only screen and ( max-width: 575px ) {
+	.map_vietnam {
+	    background-position: -500px -80px;
+	}
+	.menu_footer ul li{
+		display: block;
+	    margin-bottom: 10px;
+	    padding-left: 15px;
+	    position: relative;
+	    padding-bottom: 5px;
+	    border-bottom: 1px dotted #fff;
+	}
+	.menu_footer ul li + li:before{
+		content: '';
+		padding: 0px;
+	}
+	.menu_footer ul li:after{
+		content: "\f0da";
+		font-family: "FontAwesome";
+		position: absolute;
+		left: 0px;
+		color: #fff;
+	}
+	.menu_footer {
+    	margin-bottom: 30px;
+	}
+	.footer {
+		display: flex;
+    	flex-direction: column-reverse;
+	}
+	.logo_footer{
+		margin: auto;
+	}
+	.title_news:before, .title_news:after{
+		width: calc(100% - 80%);
+	}
+ 	.bg_privacy .title_news_list h3 img{
+		width: 100%;
+	}
+	.descscription{
+		flex: 1;
+	}
+	#sitemap .content ul li,
+	#sitemap .content li.page_item.page-item-61,
+	#sitemap .content li.page_item.page-item-54,
+	#sitemap .content li.page_item.page-item-38,
+	#sitemap .content li.page_item.page-item-72 {
+		margin-left: 6%;
+	}
+/*================Css Y 030717 Page Service================*/
+	.item_travel_holine{
+		width: 100%;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+ 	#contact .article_page_content .article_page_content_box #content_form #contact_form {
+		padding: 43px 39px 59px 38px;
+	}
+	#contact .article_page_content .article_page_content_box #content_form #contact_confirm .confirm_row {
+		padding: 21px 20px;
+	}
+	#contact .article_page_content .article_page_content_box #content_form #note {
+		padding: 70px 39px 50px 39px;
+	}
+	#contact .article_page_content .article_page_content_box #content_form #checkbox-agree {
+		margin: 0 10px 72px 10px;
+	}
+	#sitemap .content {
+		margin: 50px auto 30px auto;
+	}
+	#sitemap .content ul {
+		columns: 1;
+	}
+	#sitemap .content ul li,
+	#sitemap .content li.page_item.page-item-61,
+	#sitemap .content li.page_item.page-item-54,
+	#sitemap .content li.page_item.page-item-38,
+	#sitemap .content li.page_item.page-item-72 {
+		margin: 0 0 20px 30px;
+	}
+/*================Css Y 030717 Page Service================*/
+	.item_detail .button_service, .button_consultation .button_service{
+		padding: 15px 13px;
+    	font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+/*================Css Y 030717 Page Service================*/
+	.button_service{
+		padding: 12px 5px;
+	}
+	.text_hotline strong{
+		font-size: 24px;
+	}
+}
+@media only screen and (max-width: 320px) {
+}
